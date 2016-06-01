@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
         }else if(id == R.id.action_code){
             Toast.makeText(this, "Code clicked", Toast.LENGTH_LONG ).show();
         }else if(id == R.id.action_contact_us){
-            Toast.makeText(this, "About us clicked", Toast.LENGTH_LONG ).show();
+            Toast.makeText(this, "Contact us clicked", Toast.LENGTH_LONG ).show();
         }
 
         return super.onOptionsItemSelected(item);
